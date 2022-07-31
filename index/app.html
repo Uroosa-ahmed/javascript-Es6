@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Average calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <fieldset>
+            <h1>Average calculator</h1>
+            <form onsubmit="percentage(); return false;">
+
+                <label for="subject1">subject 01</label>
+                <input type="number" id="subject1" min="2" required>
+                <br />
+
+                <label for="subject2">subject 02</label>
+                <input type="number" id="subject2" min="2" required>
+                <br />
+
+
+                <label for="subject3">subject 03</label>
+                <input type="number" id="subject3" min="2" required>
+                <br />
+
+
+                <label for="subject4">subject 04</label>
+                <input type="number" id="subject4" min="2" required>
+                <br />
+
+                <label for="subject5">subject 05</label>
+                <input type="number" id="subject5" min="2" required>
+                <br />
+
+
+                <label for="subject6">subject 06</label>
+                <input type="number" id="subject6" min="2" required>
+                <br />
+
+
+                <label for="subject7">subject 07</label>
+                <input type="number" id="subject7" min="2" required>
+                <br />
+
+
+                <button id="btn-n" type="submit">Get results</button>
+
+                <h3 id="totalmarks"></h3>
+                <h3 id="result"></h3>
+
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+<script src="javascript.js"></script>
+
+</html>

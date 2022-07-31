@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid;
+width: 100%;
+height: 441px;
+margin: auto;
+padding: 20px;
+background-color: aquamarine;
+}
+
+fieldset{
+    height: 400px;
+    text-align: center;
+
+}
+
+#b-btn{
+border: 1px solid #00aaaf;
+outline: none;
+font-size: 14px;
+background-color: #71bee1;
+color: white;
+padding: 10px 70px;
+margin: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+input{
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    width: 50%;
+    border: 1px solid;
+
+}
+form{
+    padding: 10px;
+    margin:10px 10px ;
+}
+
+button{
+    border: none;
+}
+
+label{
+    font-weight: bold;
+    font-size: 39px;
+    font-style: italic;
+}
+
+h3#result{
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
